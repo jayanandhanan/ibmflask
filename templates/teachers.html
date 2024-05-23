@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Choose Instructor</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Unicat project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../static/styles/bootstrap4/bootstrap.min.css">
+<link href="../static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="../static/plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="../static/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="../static/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="../static/plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="../static/styles/courses.css">
+<link rel="stylesheet" type="text/css" href="../static/styles/courses_responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+
+    <!-- Header -->
+
+        <!-- Top Bar -->
+        <div class="top_bar">
+            <div class="top_bar_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+                                <ul class="top_bar_contact_list">
+                                    <li><div class="question">Need help?</div></li>
+                                    <li>
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                        <div>001-1234-88888</div>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                        <div>dangvansam98@gmail.com</div>
+                                    </li>
+                                </ul>
+                                <div class="top_bar_login ml-auto">
+                                    <div class="login_button"><a href="login">Log In</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>                
+        </div>
+
+        <!-- Header Content -->
+        <div class="header_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                            <div class="logo_container">
+                                <a href="index">
+                                    <div class="logo_text">E<span>Learn</span></div>
+                                </a>
+                            </div>
+                            <nav class="main_nav_contaner ml-auto">
+                                <ul class="main_nav">
+                                    <li><a href="index">Home</a></li>
+                                    <li><a href="about">About Us</a></li>
+                                    <li><a href="courses">Courses</a></li>
+                                    <li class="active"><a href="teachers">Instructors</a></li>
+                                    <!--<li><a href="#">Page</a></li>-->
+                                    <li><a href="contact">Contact</a></li>
+                                </ul>
+                                <div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
+
+                                <!-- Hamburger -->
+
+                                <!-- <div class="shopping_cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div> -->
+                                <div class="hamburger menu_mm">
+                                    <i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+                                </div>
+                            </nav>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header Search Panel -->
+        <div class="header_search_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="header_search_content d-flex flex-row align-items-center justify-content-end">
+                            <form action="#" class="header_search_form">
+                                <input type="search" class="search_input" placeholder="Search" required="required">
+                                <button class="header_search_button d-flex flex-column align-items-center justify-content-center">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>            
+    </header>
+
+    <!-- Menu -->
+
+    <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+        <div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+        <div class="search">
+            <form action="#" class="header_search_form menu_mm">
+                <input type="search" class="search_input menu_mm" placeholder="Search" required="required">
+                <button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
+                    <i class="fa fa-search menu_mm" aria-hidden="true"></i>
+                </button>
+            </form>
+        </div>
+        <nav class="menu_nav">
+            <ul class="menu_mm">
+                <li class="menu_mm"><a href="index">Home</a></li>
+                <li class="menu_mm"><a href="about">About</a></li>
+                <li class="menu_mm"><a href="courses">Courses</a></li>
+                <li class="menu_mm"><a href="#">Blog</a></li>
+                <li class="menu_mm"><a href="#">Page</a></li>
+                <li class="menu_mm"><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <!-- Home -->
+
+    <div class="home">
+        <div class="breadcrumbs_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="breadcrumbs">
+                            <ul>
+                                <li><a href="index">Home</a></li>
+                                <li>Courses</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>            
+    </div>
+
+    <!-- Courses -->
+
+    <div class="courses">
+        <div class="container">
+            <div class="row">
+
+                <!-- Courses Main Content -->
+                <div class="col-lg-8">
+                    <div class="courses_search_container">
+                        <form action="#" id="courses_search_form" class="courses_search_form d-flex flex-row align-items-center justify-content-start">
+                            <input type="search" class="courses_search_input" placeholder="Search Courses" required="required">
+                            <select id="courses_search_select" class="courses_search_select courses_search_input">
+                                <option>All Courses</option>
+                                <option>Basic</option>
+                                <option>Advanced</option>
+                                <option>Short-term</option>
+                                <option>Full-term</option>
+                            </select>
+                            <button action="submit" class="courses_search_button ml-auto">Search</button>
+                        </form>
+                    </div>
+
+                    <div class="courses_container">
+                        <div class="row courses_row">
+                            <!-- Course -->
+                            <div class="col-lg-4 course_col">
+                                <div class="course">
+                                    <div class="course_image"><img src="../static/images/course_1.jpg" alt=""></div>
+                                    <div class="course_body">
+                                        <h3 class="course_title"><a href="course">Basic Web Development</a></h3>
+                                        <div class="course_teacher">Instructor: John Smith</div>
+                                        <div class="course_text">
+                                            <p>Learn the basics of web development and build your own projects from scratch.</p>
+                                        </div>
+                                        <div class="course_footer">
+                                            <div class="course_price">$59</div>
+                                            <div class="course_info">
+                                                <a href="course"><span class="glyphicon glyphicon-education"></span> More Info</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Course -->
+                            <div class="col-lg-4 course_col">
+                                <div class="course">
+                                    <div class="course_image"><img src="../static/images/course_2.jpg" alt=""></div>
+                                    <div class="course_body">
+                                        <h3 class="course_title"><a href="course">Advanced Python Programming</a></h3>
+                                        <div class="course_teacher">Instructor: Emily Johnson</div>
+                                        <div class="course_text">
+                                            <p>Take your Python skills to the next level with advanced topics and projects.</p>
+                                        </div>
+                                        <div class="course_footer">
+                                            <div class="course_price">$79</div>
+                                            <div class="course_info">
+                                                <a href="course"><span class="glyphicon glyphicon-education"></span> More Info</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Course -->
+                            <div class="col-lg-4 course_col">
+                                <div class="course">
+                                    <div class="course_image"><img src="../static/images/course_3.jpg" alt=""></div>
+                                    <div class="course_body">
+                                        <h3 class="course_title"><a href="course">Introduction to Data Science</a></h3>
+                                        <div class="course_teacher">Instructor: Michael Brown</div>
+                                        <div class="course_text">
+                                            <p>Explore the basics of data science and learn how to analyze and visualize data.</p>
+                                        </div>
+                                        <div class="course_footer">
+                                            <div class="course_price">$69</div>
+                                            <div class="course_info">
+                                                <a href="course"><span class="glyphicon glyphicon-education"></span> More Info</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Courses Sidebar -->
+                <div class="col-lg-4">
+                    <div class="sidebar">
+
+                        <!-- Categories -->
+                        <div class="sidebar_section">
+                            <div class="sidebar_section_title">Categories</div>
+                            <div class="sidebar_categories">
+                                <ul>
+                                    <li><a href="#">All Courses</a></li>
+                                    <li><a href="#">Basic</a></li>
+                                    <li><a href="#">Advanced</a></li>
+                                    <li><a href="#">Short-term</a></li>
+                                    <li><a href="#">Full-term</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Latest News -->
+                        <div class="sidebar_section">
+                            <div class="sidebar_section_title">Latest News</div>
+                            <div class="sidebar_latest">
+                                <div class="latest d-flex flex-row align-items-start justify-content-start">
+                                    <div class="latest_image"><div><img src="../static/images/latest_1.jpg" alt=""></div></div>
+                                    <div class="latest_content">
+                                        <div class="latest_title"><a href="#">New Study Shows Full-term Courses Yield Better Results</a></div>
+                                        <div class="latest_info">
+                                            <span class="glyphicon glyphicon-time"></span> 3 days ago
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="latest d-flex flex-row align-items-start justify-content-start">
+                                    <div class="latest_image"><div><img src="../static/images/latest_2.jpg" alt=""></div></div>
+                                    <div class="latest_content">
+                                        <div class="latest_title"><a href="#">How to Choose the Right Course for You</a></div>
+                                        <div class="latest_info">
+                                            <span class="glyphicon glyphicon-time"></span> 5 days ago
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Banner -->
+                        <div class="sidebar_section">
+                            <div class="sidebar_banner d-flex flex-column align-items-center justify-content-center text-center">
+                                <div class="sidebar_banner_background" style="background-image:url(../static/images/banner_1.jpg)"></div>
+                                <div class="sidebar_banner_overlay"></div>
+                                <div class="sidebar_banner_content">
+                                    <div class="banner_title">Free Book</div>
+                                    <div class="banner_button"><a href="#">download now</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="footer_background" style="background-image:url(../static/images/footer_background.png)"></div>
+        <div class="container">
+            <div class="row footer_row">
+                <div class="col">
+                    <div class="footer_content">
+                        <div class="row">
+
+                            <!-- About -->
+                            <div class="col-lg-3 footer_col">
+                                <div class="footer_section footer_about">
+                                    <div class="footer_logo_container">
+                                        <a href="#">
+                                            <div class="footer_logo_text">E<span>Learn</span></div>
+                                        </a>
+                                    </div>
+                                    <div class="footer_about_text">
+                                        <p>Your number one source for online courses.</p>
+                                    </div>
+                                    <div class="footer_social">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Footer Contact -->
+                            <div class="col-lg-3 footer_col">
+                                <div class="footer_section footer_contact">
+                                    <div class="footer_title">Contact Us</div>
+                                    <div class="footer_contact_info">
+                                        <ul>
+                                            <li>Email: dangvansam98@gmail.com</li>
+                                            <li>Phone: 001-1234-88888</li>
+                                            <li>Address: 120 Castle Street, Kingston, KT1 1PB</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Footer Links -->
+                            <div class="col-lg-3 footer_col">
+                                <div class="footer_section footer_links">
+                                    <div class="footer_title">Quick Links</div>
+                                    <div class="footer_links_container">
+                                        <ul>
+                                            <li><a href="index">Home</a></li>
+                                            <li><a href="about">About</a></li>
+                                            <li><a href="contact">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Footer Support -->
+                            <div class="col-lg-3 footer_col clearfix">
+                                <div class="footer_section footer_mobile">
+                                    <div class="footer_title">Mobile</div>
+                                    <div class="footer_mobile_content">
+                                        <div class="footer_image"><a href="#"><img src="../static/images/mobile_1.png" alt=""></a></div>
+                                        <div class="footer_image"><a href="#"><img src="../static/images/mobile_2.png" alt=""></a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="../static/js/jquery-3.2.1.min.js"></script>
+<script src="../static/styles/bootstrap4/popper.js"></script>
+<script src="../static/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="../static/plugins/greensock/TweenMax.min.js"></script>
+<script src="../static/plugins/greensock/TimelineMax.min.js"></script>
+<script src="../static/plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="../static/plugins/greensock/animation.gsap.min.js"></script>
+<script src="../static/plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="../static/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="../static/plugins/easing/easing.js"></script>
+<script src="../static/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="../static/plugins/colorbox/jquery.colorbox-min.js"></script>
+<script src="../static/js/courses.js"></script>
+</body>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "fc10b479-f171-42d2-8e3c-ffbb9a26adff", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "2c707554-9622-4cd9-acc1-a8027deaddb9", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</html>

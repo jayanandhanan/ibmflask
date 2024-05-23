@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Choose Courses</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Unicat project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../static/styles/bootstrap4/bootstrap.min.css">
+<link href="../static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="../static/plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="../static/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="../static/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="../static/plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="../static/styles/courses.css">
+<link rel="stylesheet" type="text/css" href="../static/styles/courses_responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+
+    <!-- Header -->
+
+        <!-- Top Bar -->
+        <div class="top_bar">
+            <div class="top_bar_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+                                <ul class="top_bar_contact_list">
+                                    <li><div class="question">Need Help?</div></li>
+                                    <li>
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                        <div>001-1234-88888</div>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                        <div>dangvansam98@gmail.com</div>
+                                    </li>
+                                </ul>
+                                <div class="top_bar_login ml-auto">
+                                    <div class="login_button"><a href="login">Login</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>                
+        </div>
+
+        <!-- Header Content -->
+        <div class="header_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                            <div class="logo_container">
+                                <a href="index">
+                                    <div class="logo_text">E<span>Learn</span></div>
+                                </a>
+                            </div>
+                            <nav class="main_nav_contaner ml-auto">
+                                <ul class="main_nav">
+                                    <li><a href="index">Home</a></li>
+                                    <li><a href="about">About</a></li>
+                                    <li class="active"><a href="courses">Courses</a></li>
+                                    <li><a href="teachers">Teachers</a></li>
+                                    <!--<li><a href="#">Page</a></li>-->
+                                    <li><a href="contact">Contact</a></li>
+                                </ul>
+                                <div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
+
+                                <!-- Hamburger -->
+
+                                <!-- <div class="shopping_cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div> -->
+                                <div class="hamburger menu_mm">
+                                    <i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+                                </div>
+                            </nav>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header Search Panel -->
+        <div class="header_search_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="header_search_content d-flex flex-row align-items-center justify-content-end">
+                            <form action="#" class="header_search_form">
+                                <input type="search" class="search_input" placeholder="Search" required="required">
+                                <button class="header_search_button d-flex flex-column align-items-center justify-content-center">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>            
+    </header>
+
+    <!-- Menu -->
+
+    <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+        <div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+        <div class="search">
+            <form action="#" class="header_search_form menu_mm">
+                <input type="search" class="search_input menu_mm" placeholder="Search" required="required">
+                <button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
+                    <i class="fa fa-search menu_mm" aria-hidden="true"></i>
+                </button>
+            </form>
+        </div>
+        <nav class="menu_nav">
+            <ul class="menu_mm">
+                <li class="menu_mm"><a href="index">Home</a></li>
+                <li class="menu_mm"><a href="about">About</a></li>
+                <li class="menu_mm"><a href="courses">Courses</a></li>
+                <li class="menu_mm"><a href="#">Blog</a></li>
+                <li class="menu_mm"><a href="#">Page</a></li>
+                <li class="menu_mm"><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <!-- Home -->
+
+    <div class="home">
+        <div class="breadcrumbs_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="breadcrumbs">
+                            <ul>
+                                <li><a href="index">Home</a></li>
+                                <li>Courses</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>            
+    </div>
+
+    <!-- Courses -->
+
+    <div class="courses">
+        <div class="container">
+            <div class="row">
+
+                <!-- Courses Main Content -->
+                <div class="col-lg-8">
+                    <div class="courses_search_container">
+                        <form action="#" id="courses_search_form" class="courses_search_form d-flex flex-row align-items-center justify-content-start">
+                            <input type="search" class="courses_search_input" placeholder="Search Courses" required="required">
+                            <select id="courses_search_select" class="courses_search_select courses_search_input">
+                                <option>All Courses</option>
+                                <option>Basic</option>
+                                <option>Advanced</option>
+                                <option>Short Term</option>
+                                <option>Long Term</option>
+                            </select>
+                            <button action="submit" class="courses_search_button ml-auto">search</button>
+                        </form>
+                    </div>
+                    <div class="courses_container">
+                        <div class="row courses_row">
+
+                            <!-- Course -->
+                            <div class="col-lg-6 course_col">
+                                <div class="course">
+                                    <div class="course_image"><img src="../static/images/course_1.jpg" alt=""></div>
+                                    <div class="course_body">
+                                        <h3 class="course_title"><a href="#">Software Training</a></h3>
+                                        <div class="course_teacher">Mr. Johnson Smith</div>
+                                        <div class="course_text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et erat augue.</p>
+                                        </div>
+                                        <div class="course_footer">
+                                            <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+                                                <div class="course_info">
+                                                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                                    <span>25 Student</span>
+                                                </div>
+                                                <div class="course_info">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <span>5 Ratings</span>
+                                                </div>
+                                                <div class="course_price ml-auto">$199</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Course -->
+                            <div class="col-lg-6 course_col">
+                                <div class="course">
+                                    <div class="course_image"><img src="../static/images/course_2.jpg" alt=""></div>
+                                    <div class="course_body">
+                                        <h3 class="course_title"><a href="#">Finance & Banking</a></h3>
+                                        <div class="course_teacher">Mrs. Anna Johnson</div>
+                                        <div class="course_text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et erat augue.</p>
+                                        </div>
+                                        <div class="course_footer">
+                                            <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+                                                <div class="course_info">
+                                                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                                    <span>30 Student</span>
+                                                </div>
+                                                <div class="course_info">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <span>4 Ratings</span>
+                                                </div>
+                                                <div class="course_price ml-auto">$299</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Course -->
+                            <div class="col-lg-6 course_col">
+                                <div class="course">
+                                    <div class="course_image"><img src="../static/images/course_3.jpg" alt=""></div>
+                                    <div class="course_body">
+                                        <h3 class="course_title"><a href="#">Marketing Strategies</a></h3>
+                                        <div class="course_teacher">Mr. Adam Smith</div>
+                                        <div class="course_text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et erat augue.</p>
+                                        </div>
+                                        <div class="course_footer">
+                                            <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+                                                <div class="course_info">
+                                                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                                    <span>20 Student</span>
+                                                </div>
+                                                <div class="course_info">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <span>4.5 Ratings</span>
+                                                </div>
+                                                <div class="course_price ml-auto">$249</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Course -->
+                            <div class="col-lg-6 course_col">
+                                <div class="course">
+                                    <div class="course_image"><img src="../static/images/course_4.jpg" alt=""></div>
+                                    <div class="course_body">
+                                        <h3 class="course_title"><a href="#">Web Development</a></h3>
+                                        <div class="course_teacher">Mr. John Doe</div>
+                                        <div class="course_text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et erat augue.</p>
+                                        </div>
+                                        <div class="course_footer">
+                                            <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
+                                                <div class="course_info">
+                                                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                                    <span>35 Student</span>
+                                                </div>
+                                                <div class="course_info">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <span>5 Ratings</span>
+                                                </div>
+                                                <div class="course_price ml-auto">$199</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Pagination -->
+                    <div class="courses_paginations">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <div class="sidebar">
+                        <div class="sidebar_section">
+                            <div class="sidebar_title">Course Categories</div>
+                            <ul class="sidebar_categories">
+                                <li><a href="#">Design & Development</a></li>
+                                <li><a href="#">IT & Software</a></li>
+                                <li><a href="#">Marketing</a></li>
+                                <li><a href="#">Personal Development</a></li>
+                                <li><a href="#">Photography</a></li>
+                                <li><a href="#">Music</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar_section">
+                            <div class="sidebar_title">Latest Courses</div>
+                            <div class="sidebar_latest">
+                                <div class="latest d-flex flex-row align-items-start justify-content-start">
+                                    <div class="latest_image"><div><img src="../static/images/latest_1.jpg" alt=""></div></div>
+                                    <div class="latest_content">
+                                        <div class="latest_title"><a href="#">How to learn Designing</a></div>
+                                        <div class="latest_price">$175</div>
+                                    </div>
+                                </div>
+
+                                <div class="latest d-flex flex-row align-items-start justify-content-start">
+                                    <div class="latest_image"><div><img src="../static/images/latest_2.jpg" alt=""></div></div>
+                                    <div class="latest_content">
+                                        <div class="latest_title"><a href="#">Marketing Strategies</a></div>
+                                        <div class="latest_price">$200</div>
+                                    </div>
+                                </div>
+
+                                <div class="latest d-flex flex-row align-items-start justify-content-start">
+                                    <div class="latest_image"><div><img src="../static/images/latest_3.jpg" alt=""></div></div>
+                                    <div class="latest_content">
+                                        <div class="latest_title"><a href="#">Advanced Web Development</a></div>
+                                        <div class="latest_price">$180</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter -->
+
+    <div class="newsletter">
+        <div class="newsletter_background" style="background-image:url(../static/images/newsletter.jpg)"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="newsletter_container d-flex flex-lg-row flex-column align-items-center justify-content-start">
+
+                        <!-- Newsletter Content -->
+                        <div class="newsletter_content text-lg-left text-center">
+                            <div class="newsletter_title">Sign up for Newsletter</div>
+                            <div class="newsletter_subtitle">Subscribe to our newsletter and get the latest news and updates!</div>
+                        </div>
+
+                        <!-- Newsletter Form -->
+                        <div class="newsletter_form_container ml-lg-auto">
+                            <form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
+                                <input type="email" class="newsletter_input" placeholder="Your email" required="required">
+                                <button type="submit" class="newsletter_button">subscribe</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="footer_background" style="background-image:url(../static/images/footer_background.png)"></div>
+        <div class="container">
+            <div class="row footer_row">
+                <div class="col">
+                    <div class="footer_content">
+                        <div class="row">
+
+                            <!-- Footer Column - About -->
+                            <div class="col-lg-3 footer_col">
+
+                                <!-- Logo -->
+                                <div class="logo_container">
+                                    <a href="#">
+                                        <div class="logo_text">E<span>Learn</span></div>
+                                    </a>
+                                </div>
+
+                                <p class="footer_about_text">E-Learn is a platform that offers various online courses to help you improve your skills and knowledge in different fields.</p>
+
+                            </div>
+
+                            <!-- Footer Column - Menu -->
+                            <div class="col-lg-3 footer_col">
+                                <div class="footer_column_title">Menu</div>
+                                <div class="footer_column_content">
+                                    <ul>
+                                        <li class="footer_list_item"><a href="#">Home</a></li>
+                                        <li class="footer_list_item"><a href="#">About Us</a></li>
+                                        <li class="footer_list_item"><a href="#">Courses</a></li>
+                                        <li class="footer_list_item"><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Footer Column - Usefull Links -->
+                            <div class="col-lg-3 footer_col">
+                                <div class="footer_column_title">Useful Links</div>
+                                <div class="footer_column_content">
+                                    <ul>
+                                        <li class="footer_list_item"><a href="#">Testimonials</a></li>
+                                        <li class="footer_list_item"><a href="#">FAQ</a></li>
+                                        <li class="footer_list_item"><a href="#">Community</a></li>
+                                        <li class="footer_list_item"><a href="#">Campus Pictures</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Footer Column - Contact -->
+                            <div class="col-lg-3 footer_col">
+                                <div class="footer_column_title">Contact</div>
+                                <div class="footer_column_content">
+                                    <ul>
+                                        <li class="footer_contact_item">
+                                            <div class="footer_contact_icon">
+                                                <img src="../static/images/placeholder.svg" alt="placeholder">
+                                            </div>
+                                            23 King Street, Melbourne<br>Australia 3000
+                                        </li>
+                                        <li class="footer_contact_item">
+                                            <div class="footer_contact_icon">
+                                                <img src="../static/images/phone-call.svg" alt="phone">
+                                            </div>
+                                            0011 234 56789
+                                        </li>
+                                        <li class="footer_contact_item">
+                                            <div class="footer_contact_icon">
+                                                <img src="../static/images/envelope.svg" alt="envelope">
+                                            </div>info@e-learn.com
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="../static/js/jquery-3.2.1.min.js"></script>
+<script src="../static/styles/bootstrap4/popper.js"></script>
+<script src="../static/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="../static/plugins/greensock/TweenMax.min.js"></script>
+<script src="../static/plugins/greensock/TimelineMax.min.js"></script>
+<script src="../static/plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="../static/plugins/greensock/animation.gsap.min.js"></script>
+<script src="../static/plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="../static/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="../static/plugins/colorbox/jquery.colorbox-min.js"></script>
+<script src="../static/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="../static/js/courses.js"></script>
+</body>
+
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "fc10b479-f171-42d2-8e3c-ffbb9a26adff", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "2c707554-9622-4cd9-acc1-a8027deaddb9", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</html>
